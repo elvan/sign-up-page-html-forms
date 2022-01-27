@@ -4,6 +4,13 @@ body {
 }
 
 input {
+  display: block;
   width: 25rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: block;
   padding: 0.5rem;
 }

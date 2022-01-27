@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(39, 31, 31);
+  margin: 8rem;
+}
+
+input {
+  width: 25rem;
+  padding: 0.5rem;
+}

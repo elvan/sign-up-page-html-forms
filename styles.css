@@ -6,24 +6,53 @@
 
 body {
   background-color: rgb(39, 31, 31);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 form {
   width: 30rem;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   margin: 3rem auto;
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
-input {
+label {
+  margin-bottom: 0.5rem;
   display: block;
+}
+
+input {
   width: 100%;
-  padding: 0.5rem;
+  display: block;
   margin-bottom: 1rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  color: #333;
+}
+
+input:focus {
+  background-color: #aae;
+  color: #339;
+  border-color: #339;
 }
 
 button {
   display: block;
   padding: 0.5rem;
+  font-family: inherit;
+  background-color: #339;
+  border: 1px solid #339;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #44a;
+  border-color: #44a;
+  color: #fff;
 }

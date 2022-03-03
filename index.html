@@ -9,9 +9,29 @@
   </head>
   <body>
     <form action="index.html" method="post">
-      <label for="fullName">Your Name</label>
-      <input name="fullName" id="fullName" type="text" />
-      <button type="submit">Submit</button>
+      <div>
+        <label for="name">Name</label>
+        <input name="name" id="name" type="text" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input name="password" id="password" type="password" />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input name="age" id="age" type="number" min="0" step="1" />
+      </div>
+      <div>
+        <label for="birthdate">Birthdate</label>
+        <input name="birthdate" id="birthdate" type="date" max="2004-12-31" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
     </form>
   </body>
 </html>

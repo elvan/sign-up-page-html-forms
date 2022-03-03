@@ -9,6 +9,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h3 {
+  margin: 1rem 0;
+}
+
 form {
   width: 30rem;
   background-color: #fff;
@@ -56,4 +60,13 @@ button:hover {
   background-color: #44a;
   border-color: #44a;
   color: #fff;
+}
+
+.form-control-inline {
+  display: flex;
+}
+
+.form-control-inline input {
+  width: auto;
+  margin-right: 1rem;
 }
